@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #B3B6B7;
+}
+nav{
+   width: 100%;
+   height: 60px;
+   /* background-color: transparent; */
+   overflow: hidden;
+   display: inline-block;
+}
+.nav-main ul li{
+   display: inline-block;   
+}
+.nav-main ul li a{
+    float: left;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    color: #34495E;
+    font-style: normal;
+    font-family: 'Gill Sans', sans-serif;
+    margin: 20px 40px;
+    font-weight: bold;
+    padding: 4px 5px;
+}
+.nav-main ul li a:hover{
+    color: #FDFEFE;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+.nav-sec{
+    float: right;
+    display: inline;
+    color: white;
+    position: relative;
+    margin: 0 15px;
+    padding: 0 5px;
+}
+.nav-main a{
+    cursor: pointer;
+
+}
+.head-section{
+    width: 100%;
+    height: 100vh;
+    /* background-color: turquoise; */
+    position: relative;
+    overflow: hidden;
+}
+.pic{
+    float: left;
+}
+.pic .img{
+    border: 12px groove #7F8C8D;
+    margin: 160px 80px;
+    cursor: pointer;
+}
+.content{
+    float: right;
+    width: 570px;
+    height: 400px;
+    margin-right: 40px;
+    margin-top: 65px;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.pic h2{
+    color: #FDFEFE;
+    position: absolute;
+    margin: 330px 91px;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.4);
+    padding: 15px 15px;
+    cursor: pointer;
+
+}
+.sec-main{
+    width: 100%;
+    /* height: 150vh; */
+    /* background-color: skyblue; */
+}
+.list{
+     float: left;
+     border: 2px solid white;
+     height: 350px;
+     width: 150px;
+     margin: 100px 50px;
+    }
+    .list ul li{
+        color: white;
+        font-size: 15px;
+    }
+    .list ul li a{
+        line-height: 2.4rem;
+        text-decoration: none;
+        color: white;
+        font-family: 'Gill Sans', sans-serif;
+    }
+    .list ul li a:hover{
+        color: lightslategray;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+.course a{
+    float: left;
+    margin: 80px 60px;
+    padding: 0;
+    border: 1px solid gray;
+    background-color: #FDFEFE;
+    box-shadow: -1px 1px 6px 5px gray;
+    
+    }
+    .course h2{
+        color: #808080;
+        text-align: center;
+        text-decoration: underline;
+        /* text-decoration: none; */
+        font-size: 30px;
+    }
+    .map{
+        margin: 30px 200px;
+       overflow: hidden;
+       position: relative;
+    }
+    footer{
+        width: 100%;
+        height: 50px;
+        background-color: #252529;
+        color: #FDFEFE;
+        position: relative;
+        overflow: hidden;
+    }
+    footer h5{
+        text-align: center;
+
+    }
